@@ -4,11 +4,16 @@ an server for algorithm using flask
 ## 工程布局
 
 /share/algserver4bj
-    └abnormal_pics                #引起异常的请求，其携带的图片存放在这里
-    └client_res                         #客户端接收到的处理完毕的图片
-    └data                                  #ftp下载目录，算法服务完成后自动清理
-    └server_res                        #服务器处理结果，覆盖存储
-    └src                                     #服务器代码
+
+​    └abnormal_pics                #引起异常的请求，其携带的图片存放在这里
+
+​    └client_res                         #客户端接收到的处理完毕的图片
+
+​    └data                                  #ftp下载目录，算法服务完成后自动清理
+
+​    └server_res                        #服务器处理结果，覆盖存储
+
+​    └src                                     #服务器代码
 
 ## 启动
 
